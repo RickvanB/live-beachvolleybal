@@ -1,0 +1,110 @@
+html, body 
+{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+::-webkit-scrollbar 
+{
+    -webkit-appearance: none;
+}
+
+::-webkit-scrollbar:vertical 
+{
+    width: 12px;
+}
+
+::-webkit-scrollbar:horizontal 
+{
+    height: 12px;
+}
+
+::-webkit-scrollbar-thumb 
+{
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: 10px;
+    border: 2px solid #ffffff;
+}
+
+::-webkit-scrollbar-track 
+{
+    border-radius: 10px;  
+    background-color: #ffffff; 
+}
+
+.fa-btn 
+{
+    margin-right: 6px;
+}
+
+.bold
+{
+	font-weight: bold;
+}
+
+.inschrijfbutton
+{
+	padding-top: 10px;
+	text-align: center;
+}
+
+.flexslider 
+{
+    border: none;
+    margin: 0;
+}
+
+.flex-control-nav 
+{
+    display: none;
+}
+
+.title-heading, .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus
+{
+    color: white !important;
+    background-color: rgb(223, 55, 29) !important;
+}
+
+@media(max-width:767px)
+{
+    .dropdown-menu > li > a 
+    {
+        color: white !important;
+    }
+
+    .navbar-default .navbar-toggle .icon-bar
+    {
+        background-color: white;
+    }
+
+    .export-pdf
+    {
+        margin-bottom: 20px;
+    }
+}
+
+.navbar-nav > li > a, .navbar-brand
+{
+    color: white !important;
+}
+
+.save-button
+{
+    margin-top: 10px;
+}
+
+.alert-message
+{
+    margin-top: 10px;
+}
+
+.big-icon {
+    color: #222;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+.big-icon:hover
+{
+    cursor:pointer;
+}
